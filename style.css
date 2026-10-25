@@ -1,0 +1,11 @@
+:root{--paper:#f3f1ec;--ink:#0f0f0e;--ink2:#4a4944;--ink3:#8b8981;--rule:rgba(15,15,14,.12)}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 -apple-system,"PingFang SC","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:720px;margin:0 auto;padding:12vh 28px 16vh}
+small{display:block;font:11px/1 ui-monospace,"SF Mono",Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+h1{font:400 clamp(52px,9vw,96px)/.95 "Iowan Old Style","Songti SC",Georgia,serif;letter-spacing:-.03em;margin:28px 0 36px}
+h1 em{font-style:italic}
+h2{font:400 28px/1.2 "Iowan Old Style","Songti SC",Georgia,serif;margin:56px 0 12px;padding-top:20px;border-top:1px solid var(--rule)}
+p,li{color:var(--ink2)}
+a{color:var(--ink);text-underline-offset:3px;text-decoration-thickness:1px}
+footer{margin-top:80px;padding-top:20px;border-top:1px solid var(--rule)}
